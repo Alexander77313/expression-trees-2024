@@ -407,6 +407,7 @@ static bool expression_equal(const Expression* const lhs,
 	} break;
 	}
 
+	
 	return false;
 }
 
