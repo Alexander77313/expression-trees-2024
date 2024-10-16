@@ -147,11 +147,13 @@ int main(int argc, char* argv[])
 	}
 
 cleanup:
+
 	expression_destroy(&expression);
 error_scan:
 	list_deinit(&tokens);
 
 	string_destroy(&input);
 
+	
 	return result;
 }
